@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+markdown = "*"
+django-filter = "*"
+"psycopg2-binary" = "*"
+python-decouple = "*"
+"flake8" = "*"
+django-webpack-loader = "*"
+pytz = "*"
+djangorestframework = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
